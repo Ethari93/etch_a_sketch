@@ -1,0 +1,41 @@
+#container{
+    margin: 0 auto;
+    min-width: 650px;
+}
+
+#etch-controls{
+    text-align: center;
+}
+
+#etch-canvas{
+    border: 1rem solid gray;
+    display: grid;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.control{
+    display: inline-block;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.control *{
+    display: block;
+    padding-right: 1rem;
+}
+
+.square{
+    transition: all 0.3s;
+    background: white;
+}
+
+p{
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+body{
+    background-image: url('assets/background.jpg');
+}
